@@ -5,9 +5,9 @@ def func(*args):
         sum += i
         continue
     for i in args:
-        if i == args[-1]:
+        if i > max:
             max = i
     return (sum, max)
 
 
-print(func(1, 2, 3, 4))
+print(func(1, 50, 2, 3, 4))
