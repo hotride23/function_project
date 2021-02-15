@@ -249,18 +249,18 @@
 # print(car1.get_last_model())
 #
 #
-class Car:
-    counter = 0
-    __last_model = None
-
-    def __init__(self, model):
-        self.__last_model = model
-        Car.counter += 1
-
-    @classmethod
-    def get_counter(cls):
-        return cls.counter
-
-
-car1 = Car('A')
-print(Car.get_counter())
+# class Car:
+#     counter = 0
+#     __last_model = None
+#
+#     def __init__(self, model):
+#         self.__last_model = model
+#         Car.counter += 1
+#
+#     @classmethod
+#     def get_counter(cls):
+#         return cls.counter
+#
+#
+# car1 = Car('A')
+# print(Car.get_counter())
